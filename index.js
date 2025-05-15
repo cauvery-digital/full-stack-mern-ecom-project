@@ -37,3 +37,10 @@ process.on("unhandledRejection", (err) => {
     process.exit(1);
   });
 });
+
+app.get('/',(req,res)=>{
+  res.send({
+    activeStatus:true,
+    error:false,
+  });
+});

@@ -28,7 +28,7 @@ app.use("/api/v1", user);
 app.use("/api/v1", order);
 app.use("/api/v1", payment);
 
-app.use(express.static(path.join(__dirname, "http://geanditshopping.netlify.app/api/v1")));
+app.use(express.static(path.join(__dirname, "http://geanditshopping.netlify.app")));
 
 
 app.get("*", (req, res) => {

@@ -32,7 +32,7 @@ app.use(express.static(path.join(__dirname, "https://geanditshopping.netlify.app
 
 
 app.get("*", (req, res) => {
-  res.sendFile(path.resolve(__dirname, "https://geanditshopping.netlify.app/api/v1"));
+  res.sendFile(path.resolve(__dirname, "https://geanditshopping.netlify.app/index.html"));
 });
 
 // Middleware for Errors

@@ -30,6 +30,7 @@ app.use("/api/v1", payment);
 
 app.use(express.static(path.join(__dirname, "http://geanditshopping.netlify.app/api/v1")));
 
+
 app.get("*", (req, res) => {
   res.sendFile(path.resolve(__dirname, "http://geanditshopping.netlify.app/api/v1"));
 });

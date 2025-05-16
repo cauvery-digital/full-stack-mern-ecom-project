@@ -28,12 +28,19 @@ app.use("/api/v1", user);
 app.use("/api/v1", order);
 app.use("/api/v1", payment);
 
-app.use(express.static(path.join(process.cwd(), "https://geanditshopping.netlify.app")));
+app.use(
+  cors({
+    origin: [process.env.CLIENT_URL],
+    credentials: true,
+  })
+);
+
+// app.use(express.static(path.join(process.cwd(), "https://geanditshopping.netlify.app")));
 
 
-app.get("*", (req, res) => {
-  res.sendFile(path.resolve(process.cwd(), "https://geanditshopping.netlify.app/index.html"));
-});
+// app.get("*", (req, res) => {
+//   res.sendFile(path.resolve(process.cwd(), "https://geanditshopping.netlify.app/index.html"));
+// });
 
 // Middleware for Errors
 app.use(errorMiddleware);

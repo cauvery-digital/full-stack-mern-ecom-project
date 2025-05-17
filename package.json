@@ -1,15 +1,13 @@
 {
-  "name": "ecommerce",
+  "name": "mern-ecommerce",
   "version": "1.0.0",
-  "description": "",
+  "description": "MERN Stack ecommerce wesite",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "dev": "nodemon index.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false && npm install --prefix frontend && npm run build --prefix frontend"
+    "dev": "nodemon index.js"
   },
-  "author": "",
+  "author": "Nielesh Limbani",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",

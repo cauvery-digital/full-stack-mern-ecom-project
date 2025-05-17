@@ -31,7 +31,7 @@ app.use("/api/v1", payment);
 
 app.use(
   cors({
-    origin: [process.env.CLIENT_URL],
+    origin: [process.env.FRONTEND_URL],
     credentials: true,
   })
 );

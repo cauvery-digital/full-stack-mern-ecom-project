@@ -38,9 +38,9 @@ process.on("unhandledRejection", (err) => {
   });
 });
 
-app.get('/',(req,res)=>{
-  res.send({
-    activeStatus:true,
-    error:false,
-  })
-})
+// app.get('/',(req,res)=>{
+//   res.send({
+//     activeStatus:true,
+//     error:false,
+//   })
+// })

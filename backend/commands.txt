@@ -1,0 +1,3 @@
+npm init
+
+npm i express express-fileupload cookie-parser dotenv jsonwebtoken mongoose nodemailer nodemon  stripe validator bcryptjs body-parser

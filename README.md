@@ -1,6 +1,12 @@
 # How to start Full Stack MERN Website
 
-#### The acronym MERN stands for MongoDB, Express, React, and Node.js. These four technologies are commonly used together to build full-stack web applications. 
+#### The acronym MERN stands for MongoDB, Express, React, and Node.js. These four technologies are commonly used together to build full-stack web applications.
+
+First of all create folder for your project
+
+In project Directory Make to folders named as frontend and backend.
+
+Open your project directory with VsCode and follow procedure.
 
 open terminal
 ```
